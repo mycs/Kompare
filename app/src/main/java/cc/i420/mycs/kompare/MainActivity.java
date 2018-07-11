@@ -144,7 +144,6 @@ public class MainActivity extends AppCompatActivity implements DecoratedBarcodeV
         decoratedBarcodeView.decodeContinuous(barcodeCallback);
     }
 
-
     @Override
     public void onTorchOn() {
         btnToggleTorch.setImageDrawable(turnOffTorch);
